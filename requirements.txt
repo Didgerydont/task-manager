@@ -33,4 +33,5 @@ virtualenv-clone==0.5.3
 virtualenvwrapper==4.8.4
 Werkzeug==0.16.0
 wrapt==1.11.2
-flask_pymongo 
+flask_pymongo
+pymongo[tls,srv]
