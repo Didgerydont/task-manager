@@ -44,6 +44,8 @@ def update_task(task_id):
         'is_urgent':request.form.get('is_urgent')
     })
     
+    return redirect(url_for('get_tasks'))
+    
 
 
 
